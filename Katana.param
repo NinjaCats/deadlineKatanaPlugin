@@ -36,7 +36,7 @@ Description=The path to the Katana version 3 executable used for rendering. Ente
 
 [Katana_Executable4]
 Type=multilinemultifilename
-Label=Katana Version 3 Render Executable
+Label=Katana Version 4 Render Executable
 Category=Katana Options
 CategoryOrder=1
 CategoryIndex=1
@@ -45,7 +45,7 @@ Description=The path to the Katana version 3 executable used for rendering. Ente
 
 [Katana_Executable5]
 Type=multilinemultifilename
-Label=Katana Version 3 Render Executable
+Label=Katana Version 5 Render Executable
 Category=Katana Options
 CategoryOrder=1
 CategoryIndex=1
