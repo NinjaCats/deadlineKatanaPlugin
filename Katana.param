@@ -1,0 +1,53 @@
+[About]
+Type=label
+Label=About
+Category=About Plugin
+CategoryOrder=-1
+Index=0
+Default=Katana Plugin for Deadline
+Description=Not configurable.
+
+[ConcurrentTasks]
+Type=label
+Label=ConcurrentTasks
+Category=About Plugin
+CategoryOrder=-1
+Index=0
+Default=True
+Description=Not configurable.
+
+[Katana_Executable2]
+Type=multilinemultifilename
+Label=Katana Version 2 Render Executable
+Category=Katana Options
+CategoryOrder=1
+CategoryIndex=0
+Default=/opt/foundry/katana-program/katana;C:\Program Files\Katana2.6v4\bin\katanaBin.exe
+Description=The path to the Katana version 2 executable used for rendering. Enter alternative paths on separate lines.
+
+[Katana_Executable3]
+Type=multilinemultifilename
+Label=Katana Version 3 Render Executable
+Category=Katana Options
+CategoryOrder=1
+CategoryIndex=1
+Default=/opt/foundry/katana-program/katana;C:\Program Files\Katana3.0v1\bin\katanaBin.exe
+Description=The path to the Katana version 3 executable used for rendering. Enter alternative paths on separate lines.
+
+[Katana_Executable4]
+Type=multilinemultifilename
+Label=Katana Version 3 Render Executable
+Category=Katana Options
+CategoryOrder=1
+CategoryIndex=1
+Default=/opt/foundry/katana-program/katana;C:\Program Files\Katana4.0v1\bin\katanaBin.exe
+Description=The path to the Katana version 3 executable used for rendering. Enter alternative paths on separate lines.
+
+[Katana_Executable5]
+Type=multilinemultifilename
+Label=Katana Version 3 Render Executable
+Category=Katana Options
+CategoryOrder=1
+CategoryIndex=1
+Default=/opt/foundry/katana-program/katana;C:\Program Files\Katana5.0v1\bin\katanaBin.exe
+Description=The path to the Katana version 3 executable used for rendering. Enter alternative paths on separate lines.

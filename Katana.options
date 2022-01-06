@@ -1,0 +1,41 @@
+[Version]
+Type=enum
+Values=2;3
+Index=1
+Label=Version
+Category=Katana Options
+CategoryOrder=0
+Description=The Katana version to render with.
+Required=true
+DisableIfBlank=false
+Default=3
+
+[KatanaFile]
+Type=filename
+Label=Katana Scene File
+Category=File Options
+CategoryOrder=1
+Index=0
+Description=The file path to the .katana file to use.
+Required=false
+DisableIfBlank=true
+
+[WorkingDirectory]
+Type=Folder
+Label=Working Directory (Optional)
+Category=File Options
+CategoryOrder=1
+Index=1
+Description=The working directory used during Katana rendering. This is required if your Katana project file contain relative paths.
+Required=false
+DisableIfBlank=true
+
+[RenderNode]
+Type=String
+Label=Render Node (optional)
+Category=File Options
+CategoryOrder=1
+Index=2
+Description=The Katana scene node to render. This can be left blank to render the default render node.
+Required=false
+DisableIfBlank=true
